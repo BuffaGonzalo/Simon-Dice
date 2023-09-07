@@ -1,9 +1,8 @@
 # Simon-Dice
-### Trabajo Práctico de Embebidos de la materia de Computación III de la carrera ingeniería Mecatrónica
+### Trabajo Práctico de Embebidos - Computación III - Ingeniería Mecatrónica - UNER
 El juego utiliza una placa de desarrollo Stm32f103 "Blue Pill" con 4 pulsadores conectados en PullUp con 8 resistores en total (4 de 220 ohms y 4 de 4,7K ohms) en los pines A4, A5, A6, A7 (izq a der), los pulsadores activan 4 leds conectados con 4 resistores de 220 ohms a los pines B6, B7, B14, B15 (izq a der)
 
 ### Gameplay
--
 El Codigo funciona con una MEF (Maquina de estados finita) por la cual se desplaza durante la ejecución del programa, las distintas etapas del juego son:
 
 - Secuencia inicial (presionando A6 se elije el nivel, manteniendo A7 entre 1 a 2 segundos se ingresa al juego)
